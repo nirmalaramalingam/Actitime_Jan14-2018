@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Actitime_Jan14, 2018]">
+  <test name="TestLoginUS156(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Scenario_Component.Login_Successful">
+        <methods>
+          <include name="LoginSuccessful"/>
+        </methods>
+      </class> <!-- Scenario_Component.Login_Successful -->
+    </classes>
+  </test> <!-- TestLoginUS156(failed) -->
+</suite> <!-- Failed suite [Actitime_Jan14, 2018] -->

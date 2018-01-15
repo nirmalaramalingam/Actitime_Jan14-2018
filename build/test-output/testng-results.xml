@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Actitime_Jan14, 2018" duration-ms="34062" started-at="2018-01-15T07:03:37Z" finished-at="2018-01-15T07:04:11Z">
+    <groups>
+      <group name="regression">
+        <method signature="Invalid_Login.testInvalidLogin()[pri:0, instance:Scenario_Component.Invalid_Login@35a50a4c]" name="testInvalidLogin" class="Scenario_Component.Invalid_Login"/>
+        <method signature="Login_Successful.LoginSuccessful()[pri:0, instance:Scenario_Component.Login_Successful@24b1d79b]" name="LoginSuccessful" class="Scenario_Component.Login_Successful"/>
+        <method signature="VerifyTitle.VerifyTitle()[pri:0, instance:Scenario_Component.VerifyTitle@1f021e6c]" name="VerifyTitle" class="Scenario_Component.VerifyTitle"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="TestLoginUS156" duration-ms="34062" started-at="2018-01-15T07:03:37Z" finished-at="2018-01-15T07:04:11Z">
+      <class name="Scenario_Component.Login_Successful">
+        <test-method status="FAIL" signature="LoginSuccessful()[pri:0, instance:Scenario_Component.Login_Successful@24b1d79b]" name="LoginSuccessful" duration-ms="13986" started-at="2018-01-15T12:33:37Z" finished-at="2018-01-15T12:33:51Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:Testcase failed as Actual result is Logout expected result is LOGOUT]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:Testcase failed as Actual result is Logout expected result is LOGOUTat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)at Scenario_Component.Login_Successful.LoginSuccessful(Login_Successful.java:45)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccessful -->
+      </class> <!-- Scenario_Component.Login_Successful -->
+      <class name="Scenario_Component.VerifyTitle">
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:Scenario_Component.VerifyTitle@1f021e6c]" name="VerifyTitle" duration-ms="9934" started-at="2018-01-15T12:34:01Z" finished-at="2018-01-15T12:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+      </class> <!-- Scenario_Component.VerifyTitle -->
+      <class name="Scenario_Component.Invalid_Login">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:Scenario_Component.Invalid_Login@35a50a4c]" name="testInvalidLogin" duration-ms="10017" started-at="2018-01-15T12:33:51Z" finished-at="2018-01-15T12:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+      </class> <!-- Scenario_Component.Invalid_Login -->
+    </test> <!-- TestLoginUS156 -->
+  </suite> <!-- Actitime_Jan14, 2018 -->
+</testng-results>

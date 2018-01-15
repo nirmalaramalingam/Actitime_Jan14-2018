@@ -1,0 +1,20 @@
+2018-01-15 12:07:27 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:07:31 INFO  Invalid_Login:32 - Testcase failed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:12:32 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:12:35 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:14:33 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:14:37 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:16:36 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:16:40 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:19:31 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:19:35 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:24:57 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:25:01 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:26:26 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:26:29 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:27:50 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:27:53 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:30:10 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:30:13 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.
+2018-01-15 12:33:56 INFO  Invalid_Login:20 - Executing Invalid login
+2018-01-15 12:34:00 INFO  Invalid_Login:32 - Testcase Passed as Actual result is Username or Password is invalid. Please try again. expected result is Username or Password is invalid. Please try again.

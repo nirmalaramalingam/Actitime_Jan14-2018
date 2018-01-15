@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Actitime_Jan14, 2018" parallel="tests">
+  
+     <groups>
+      <run>
+
+     <include name="regression"/>
+    <exclude name="smoke"></exclude>
+     
+      </run>
+      </groups>  
+    
+     
+  <test name="TestLoginUS156" allow-return-values="true">
+	 <classes>
+	   <class name="Scenario_Component.Login_Successful"/>
+	    <class name="Scenario_Component.Invalid_Login"/>
+	    <class name="Scenario_Component.VerifyTitle"/>
+	 </classes>
+   </test>
+   
+  
+</suite>
